@@ -1,0 +1,10 @@
+[workspace]
+members = ["examples/*"]
+resolver = "2"
+
+# [workspace.lints.rust]
+# unsafe_code = "forbid"
+
+# [workspace.lints.clippy]
+# type_complexity = "allow"
+# too_many_arguments = "allow"
